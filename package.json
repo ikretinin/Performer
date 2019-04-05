@@ -2,7 +2,10 @@
     "name": "Performer",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-amqp": "0.4.5",
+        "node-red-contrib-mongodb": "0.3.4"
+    },
     "node-red": {
         "settings": {
             "flowFile": "performer_flow.json",
